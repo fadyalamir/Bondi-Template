@@ -38,6 +38,10 @@ body {
 .navbar {
   background-color: var(--dark-color);
 }
+.navbar .navbar-brand img {
+  width: 60px;
+  height: 60px;
+}
 .navbar .navbar-nav .nav-link {
   color: white;
 }
@@ -211,6 +215,10 @@ body {
 /* Start Footer */
 .footer {
   background-color: var(--dark-color);
+}
+.footer .info img {
+  width: 60px;
+  height: 60px; 
 }
 .footer .copyright > span {
   color: var(--green-color);
